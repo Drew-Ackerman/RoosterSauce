@@ -10,7 +10,7 @@ public class mainMenuCrabWalk : MonoBehaviour {
 	void Start () {
 		xStartPos = Random.Range(-2f, 2f);
 		this.transform.Translate(new Vector2(xStartPos, 0));
-		walkSpeed = Random.Range(0.03f, 0.09f);
+		walkSpeed = Random.Range(0.3f, 0.9f);
 	}
 
 	// Update is called once per frame
@@ -21,7 +21,7 @@ public class mainMenuCrabWalk : MonoBehaviour {
 
 	private void walkUp(){
 		if (this.transform.position.y < 8){
-			this.transform.Translate(new Vector2(0, walkSpeed));
+			this.transform.Translate(new Vector2(0, walkSpeed*Time.deltaTime));
 		} else {
 			Destroy(gameObject);
 		}
