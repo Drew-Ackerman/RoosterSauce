@@ -134,3 +134,4 @@ C:\Users\Echostt\Documents\GitHub\RoosterSauce\Crabland\Temp\bin\Debug\UnityEdit
 C:\Users\Echostt\Documents\GitHub\RoosterSauce\Crabland\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Echostt\Documents\GitHub\RoosterSauce\Crabland\obj\Debug\Assembly-CSharp.dll
 C:\Users\Echostt\Documents\GitHub\RoosterSauce\Crabland\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Echostt\Documents\GitHub\RoosterSauce\Crabland\Temp\bin\Debug\Facebook.Unity.Settings.dll
