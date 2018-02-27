@@ -15,7 +15,6 @@ public class PlayerController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update() {
-		
 		if (Input.touchCount > 0) {
 			Touch touch = Input.GetTouch(0);
 			//make sure either 
@@ -24,6 +23,11 @@ public class PlayerController : MonoBehaviour {
 				Vector3 touchPosition = Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, 10));                
 				transform.position = Vector3.Lerp(transform.position, touchPosition, Time.deltaTime);
 			}
+		}
+		if (Input.GetMouseButton(0)){
+			Vector3 mousePos = Input.mousePosition;
+			Vector2 touchPosition = Camera.main.ScreenToWorldPoint(new Vector2(mousePos.x, mousePos.y));                
+			transform.position = Vector3.Lerp(transform.position, touchPosition, Time.deltaTime);
 		}
 	}
 }

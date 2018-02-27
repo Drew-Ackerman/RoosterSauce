@@ -8,7 +8,7 @@ public class mainMenuCrabWalk : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		xStartPos = Random.Range(-2f, 2f);
+		xStartPos = Random.Range(-6f, 6f);
 		this.transform.Translate(new Vector2(xStartPos, 0));
 		walkSpeed = Random.Range(0.3f, 0.9f);
 	}
