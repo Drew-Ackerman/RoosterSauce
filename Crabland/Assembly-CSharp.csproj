@@ -53,8 +53,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Area 1\areaGameManager.cs" />
      <Compile Include="Assets\Scripts\Area 1\areaMenuOkay.cs" />
-     <Compile Include="Assets\Scripts\Area 1\areaTreasureNewScene.cs" />
+     <Compile Include="Assets\Scripts\Area 1\areaTreasureTrigger.cs" />
      <Compile Include="Assets\Scripts\cameraFollow.cs" />
+     <Compile Include="Assets\Scripts\loadDialogue.cs" />
      <Compile Include="Assets\Scripts\Main Menu\mainMenuCrabWalk.cs" />
      <Compile Include="Assets\Scripts\Main Menu\mainMenuManager.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
