@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour {
 	void Update() {
 		if (Input.touchCount > 0) {
 			Touch touch = Input.GetTouch(0);
-			//make sure either 
+			//either touch is persistent, or moving
 			if (touch.phase == TouchPhase.Stationary || touch.phase == TouchPhase.Moved) {
 				// If the finger is on the screen, move the object smoothly to the touch position
 				Vector3 touchPosition = Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, 10));                
