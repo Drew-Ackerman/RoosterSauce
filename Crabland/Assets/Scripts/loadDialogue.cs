@@ -8,8 +8,11 @@ using UnityEngine.UI;
 public class loadDialogue : MonoBehaviour {
 	
 	public void showDialogue(int dialogueChoice){
+		GameObject player = GameObject.FindGameObjectWithTag("Player");
 		switch (dialogueChoice){
 		case 1: 
+			//when dialogue starts, stop player movement. After dialogue completion, set back to true
+			player.GetComponent<PlayerController>().moveActive = false;
 			GameObject canvas = GameObject.Find("Canvas");
 
 			GameObject dialogueBox = (GameObject)Instantiate(Resources.Load("UITextBox"));
