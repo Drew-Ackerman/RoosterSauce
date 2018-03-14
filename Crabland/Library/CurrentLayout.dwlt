@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 29
+  controlID: 49
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -444,9 +444,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 358.65848, y: 376.16898, z: 6.25}
+    m_Target: {x: 402.5276, y: 392.48795, z: 43.816128}
     speed: 2
-    m_Value: {x: 358.65848, y: 376.16898, z: 6.25}
+    m_Value: {x: 402.5276, y: 392.48795, z: 43.816128}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -474,9 +474,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1337.3691
+    m_Target: 1272.1729
     speed: 2
-    m_Value: 1337.3691
+    m_Value: 1272.1729
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -560,9 +560,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9cfbffff
-    m_LastClickedID: -1124
-    m_ExpandedIDs: 9efbffff00000000
+    m_SelectedIDs: c4650000
+    m_LastClickedID: 0
+    m_ExpandedIDs: e035feff50baffff46cbffff0ce6ffff9efbffff000000001a2d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -624,33 +624,33 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Resources/TextObjects
   m_ViewMode: 1
   m_StartGridSize: 66
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Resources/TextObjects
   m_LastFoldersGridSize: 66
   m_LastProjectPath: C:\Users\Echostt\Documents\GitHub\RoosterSauce\Crabland
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3e2b0000
-    m_LastClickedID: 11070
+    m_SelectedIDs: e6390000
+    m_LastClickedID: 14822
     m_ExpandedIDs: 00000000b0270000bc270000fc270000b2280000fa280000e8290000262a00006a2a00006c2a00003e2b00005e2c0000602c0000662c0000b22c0000de2e0000e02e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Base Classes
+      m_OriginalName: Base Classes
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 11088
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -746,7 +746,7 @@ MonoBehaviour:
     width: 402
     height: 450
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 501.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: -160
