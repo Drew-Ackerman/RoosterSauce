@@ -1,0 +1,922 @@
+fileFormatVersion: 2
+guid: 30a5719bcf00a664fbe4a51b7f3b32df
+timeCreated: 1445981969
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: house_0
+    21300002: house_1
+    21300004: house_2
+    21300006: house_3
+    21300008: house_4
+    21300010: house_5
+    21300012: house_6
+    21300014: house_7
+    21300016: house_8
+    21300018: house_9
+    21300020: house_10
+    21300022: house_11
+    21300024: house_12
+    21300026: house_13
+    21300028: house_14
+    21300030: house_15
+    21300032: house_16
+    21300034: house_17
+    21300036: house_18
+    21300038: house_19
+    21300040: house_20
+    21300042: house_21
+    21300044: house_22
+    21300046: house_23
+    21300048: house_24
+    21300050: house_25
+    21300052: house_26
+    21300054: house_27
+    21300056: house_28
+    21300058: house_29
+    21300060: house_30
+    21300062: house_31
+    21300064: house_32
+    21300066: house_33
+    21300068: house_34
+    21300070: house_35
+    21300072: house_36
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 64
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: house_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 29.5}
+        - {x: -24, y: -29.5}
+        - {x: 24, y: -29.5}
+        - {x: 24, y: 29.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 528
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 7.5}
+        - {x: -8, y: -7.5}
+        - {x: 8, y: -7.5}
+        - {x: 8, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 512
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 7.5}
+        - {x: -8, y: -7.5}
+        - {x: 8, y: -7.5}
+        - {x: 8, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 496
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 7.5}
+        - {x: -8, y: -7.5}
+        - {x: 8, y: -7.5}
+        - {x: 8, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 480
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 7.5}
+        - {x: -8, y: -7.5}
+        - {x: 8, y: -7.5}
+        - {x: 8, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_5
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 448
+        width: 144
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 24}
+        - {x: -26, y: 8}
+        - {x: -24, y: 6}
+        - {x: -53, y: 24}
+        - {x: -72, y: 24}
+        - {x: -72, y: -24}
+        - {x: 71, y: -24}
+        - {x: 72, y: -17}
+        - {x: 72, y: 24}
+      - - {x: 43, y: 5}
+        - {x: 53, y: 5}
+        - {x: 53, y: -5}
+        - {x: 43, y: -5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_6
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 467
+        width: 128
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 14.5}
+        - {x: -64, y: -14.5}
+        - {x: 64, y: -14.5}
+        - {x: 64, y: 14.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 464
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 7.5}
+        - {x: -8, y: -7.5}
+        - {x: 8, y: -7.5}
+        - {x: 8, y: 7.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 432
+        width: 92
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: 16}
+        - {x: -46, y: -16}
+        - {x: 46, y: -16}
+        - {x: 46, y: 16}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 432
+        width: 192
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96, y: 16}
+        - {x: -96, y: 16}
+        - {x: -96, y: -16}
+        - {x: 96, y: -16}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_10
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 7}
+        - {x: -7, y: -7}
+        - {x: 7, y: -7}
+        - {x: 7, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_11
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 434
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 7}
+        - {x: -7, y: -7}
+        - {x: 7, y: -7}
+        - {x: 7, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_12
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 434
+        width: 128
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 7}
+        - {x: -64, y: -7}
+        - {x: 64, y: -7}
+        - {x: 64, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 112
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 78.5}
+        - {x: -7, y: 78.5}
+        - {x: -54, y: 58.5}
+        - {x: -56, y: 51.5}
+        - {x: -56, y: -78.5}
+        - {x: 56, y: -78.5}
+        - {x: 56, y: 51.5}
+        - {x: 52, y: 56.5}
+      - - {x: -56, y: 78.5}
+        - {x: -56, y: 64.5}
+        - {x: -52, y: 63.5}
+        - {x: -38, y: 63.5}
+        - {x: -38, y: 78.5}
+      - - {x: 38, y: 78.5}
+        - {x: 38, y: 65.5}
+        - {x: 40, y: 63.5}
+        - {x: 52, y: 63.5}
+        - {x: 56, y: 65.5}
+        - {x: 56, y: 78.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 369
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -8, y: -13}
+        - {x: 8, y: -13}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_15
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 320
+        width: 108
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 38.5}
+        - {x: -7, y: 38.5}
+        - {x: -54, y: 18.5}
+        - {x: -54, y: -38.5}
+        - {x: 54, y: -38.5}
+        - {x: 54, y: 12.5}
+        - {x: 52, y: 16.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_16
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 368
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -8, y: -13}
+        - {x: 8, y: -13}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_17
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 320
+        width: 108
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 38.5}
+        - {x: -7, y: 38.5}
+        - {x: -54, y: 18.5}
+        - {x: -54, y: -38.5}
+        - {x: 54, y: -38.5}
+        - {x: 54, y: 12.5}
+        - {x: 52, y: 16.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 240
+        width: 128
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 39}
+        - {x: -64, y: 19}
+        - {x: -64, y: -39}
+        - {x: 64, y: -39}
+        - {x: 64, y: 28}
+        - {x: 23, y: 39}
+      - - {x: -64, y: 39}
+        - {x: -64, y: 23}
+        - {x: -48, y: 23}
+        - {x: -46, y: 25}
+        - {x: -46, y: 39}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_19
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 240
+        width: 128
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 39}
+        - {x: -64, y: 19}
+        - {x: -64, y: -39}
+        - {x: 64, y: -39}
+        - {x: 64, y: 28}
+        - {x: 23, y: 39}
+      - - {x: -64, y: 39}
+        - {x: -64, y: 23}
+        - {x: -48, y: 23}
+        - {x: -46, y: 25}
+        - {x: -46, y: 39}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_20
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 240
+        width: 128
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 39}
+        - {x: -64, y: 19}
+        - {x: -64, y: -39}
+        - {x: 64, y: -39}
+        - {x: 64, y: 28}
+        - {x: 23, y: 39}
+      - - {x: -64, y: 39}
+        - {x: -64, y: 23}
+        - {x: -48, y: 23}
+        - {x: -46, y: 25}
+        - {x: -46, y: 39}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 336
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -8, y: -13}
+        - {x: 8, y: -13}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_22
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 336
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -8, y: -13}
+        - {x: 8, y: -13}
+        - {x: 8, y: 13}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 304
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 12}
+        - {x: -8, y: -12}
+        - {x: 8, y: -12}
+        - {x: 8, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_24
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 320
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 4}
+        - {x: -8, y: -4}
+        - {x: 8, y: -4}
+        - {x: 8, y: 4}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 272
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 12}
+        - {x: -8, y: -12}
+        - {x: 8, y: -12}
+        - {x: 8, y: 12}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_26
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 112
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 78.5}
+        - {x: -7, y: 78.5}
+        - {x: -54, y: 58.5}
+        - {x: -56, y: 51.5}
+        - {x: -56, y: -78.5}
+        - {x: 56, y: -78.5}
+        - {x: 56, y: 51.5}
+        - {x: 52, y: 56.5}
+      - - {x: -56, y: 78.5}
+        - {x: -56, y: 64.5}
+        - {x: -52, y: 63.5}
+        - {x: -38, y: 63.5}
+        - {x: -38, y: 78.5}
+      - - {x: 38, y: 78.5}
+        - {x: 38, y: 65.5}
+        - {x: 40, y: 63.5}
+        - {x: 52, y: 63.5}
+        - {x: 56, y: 65.5}
+        - {x: 56, y: 78.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_27
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 16
+        width: 112
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 78.5}
+        - {x: -7, y: 78.5}
+        - {x: -54, y: 58.5}
+        - {x: -56, y: 51.5}
+        - {x: -56, y: -78.5}
+        - {x: 56, y: -78.5}
+        - {x: 56, y: 51.5}
+        - {x: 52, y: 56.5}
+      - - {x: -56, y: 78.5}
+        - {x: -56, y: 64.5}
+        - {x: -52, y: 63.5}
+        - {x: -38, y: 63.5}
+        - {x: -38, y: 78.5}
+      - - {x: 38, y: 78.5}
+        - {x: 38, y: 65.5}
+        - {x: 40, y: 63.5}
+        - {x: 52, y: 63.5}
+        - {x: 56, y: 65.5}
+        - {x: 56, y: 78.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 128
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 39}
+        - {x: -64, y: 19}
+        - {x: -64, y: -39}
+        - {x: 64, y: -39}
+        - {x: 64, y: 28}
+        - {x: 23, y: 39}
+      - - {x: -64, y: 39}
+        - {x: -64, y: 23}
+        - {x: -48, y: 23}
+        - {x: -46, y: 25}
+        - {x: -46, y: 39}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_29
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 32
+        width: 128
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 39}
+        - {x: -64, y: 19}
+        - {x: -64, y: -39}
+        - {x: 64, y: -39}
+        - {x: 64, y: 28}
+        - {x: 23, y: 39}
+      - - {x: -64, y: 39}
+        - {x: -64, y: 23}
+        - {x: -48, y: 23}
+        - {x: -46, y: 25}
+        - {x: -46, y: 39}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_30
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 32
+        width: 128
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 39}
+        - {x: -64, y: 19}
+        - {x: -64, y: -39}
+        - {x: 64, y: -39}
+        - {x: 64, y: 28}
+        - {x: 23, y: 39}
+      - - {x: -64, y: 39}
+        - {x: -64, y: 23}
+        - {x: -48, y: 23}
+        - {x: -46, y: 25}
+        - {x: -46, y: 39}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 29.5}
+        - {x: -24, y: -29.5}
+        - {x: 24, y: -29.5}
+        - {x: 24, y: 29.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 29.5}
+        - {x: -24, y: -29.5}
+        - {x: 24, y: -29.5}
+        - {x: 24, y: 29.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_33
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 480
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 29.5}
+        - {x: -24, y: -29.5}
+        - {x: 24, y: -29.5}
+        - {x: 24, y: 29.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_34
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 480
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 29.5}
+        - {x: -24, y: -29.5}
+        - {x: 24, y: -29.5}
+        - {x: 24, y: 29.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_35
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 480
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 29.5}
+        - {x: -24, y: -29.5}
+        - {x: 24, y: -29.5}
+        - {x: 24, y: 29.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: house_36
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 450
+        width: 128
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 8.5}
+        - {x: -64, y: -8.5}
+        - {x: 51.700195, y: -3.6448364}
+        - {x: 64, y: 8.5}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
