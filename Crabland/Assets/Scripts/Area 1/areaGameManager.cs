@@ -3,23 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//script to be used to control the flow and state of game events
+//will handle closing text when appropriate, keeping track of current event progress
 public class areaGameManager : MonoBehaviour {
-	private GameObject btnOkay;
-	private Text livesText;
+	GameObject btnOkay;
 
 	// Use this for initialization
 	void Start () {
-		//set intial player conditions, to be placed in function
-
-		//get UI components
-		btnOkay = GameObject.Find("btnOkay");
-		btnOkay.SetActive(false);
-
-	}
-
-	// Update is called once per frame
-	void Update () {
 		
 	}
-
 }

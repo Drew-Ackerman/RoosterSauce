@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+/* TODO
+ * UI elements need to be further adjusted to fit any screen size. All displayed objects need to be
+ * made proportionally scaled to the Screen.width / Screen.height
+ */
 
-//call this function with 2 gameobjects to be shown in a dialogue view
-//and a string to be displayed
 public class loadDialogue : MonoBehaviour {
-	
+
+	//a function that when passed a number will display the coded text, and 2 sprites in a dialogue view
 	public void showDialogue(int dialogueChoice){
 		GameObject player = GameObject.FindGameObjectWithTag("Player");
 		switch (dialogueChoice){
@@ -16,6 +19,9 @@ public class loadDialogue : MonoBehaviour {
 			GameObject canvas = GameObject.Find("Canvas");
 
 			GameObject dialogueBox = (GameObject)Instantiate(Resources.Load("UITextBox"));
+			RectTransform rt = (RectTransform)dialogueBox.transform;
+			//fit dialoguebox view to any view size
+			dialogueBox.transform.localScale = new Vector3(1 * (Screen.width / rt.rect.width), 1 * (Screen.height * .4f / rt.rect.height), 0);
 			dialogueBox.transform.SetParent(canvas.transform);
 			dialogueBox.GetComponent<RectTransform>().localPosition = new Vector3(0, -220, 0);
 
@@ -27,10 +33,17 @@ public class loadDialogue : MonoBehaviour {
 			right.transform.SetParent(dialogueBox.transform);
 			right.transform.Translate(new Vector3(1130, 400, 0));
 
-			string dText = "The human condition";
-			Text dt = GameObject.Find("textDialogue").GetComponent<Text>();
-			dt.transform.SetParent(dialogueBox.transform);
-			dt.text = dText.ToString();
+			//maybe text can be arranged into sentence objects to be loaded? Need to be mindful of size
+			GameObject[] tex = new GameObject[4];
+			tex[0] = (GameObject)Instantiate(Resources.Load("TextObjects/TextOb_test"));
+			tex[1] = (GameObject)Instantiate(Resources.Load("TextObjects/TextOb_text"));
+			tex[2] = (GameObject)Instantiate(Resources.Load("TextObjects/TextOb_on"));
+			tex[3] = (GameObject)Instantiate(Resources.Load("TextObjects/TextOb_screen"));
+			for (int i = 0; i < tex.Length; ++i){
+				tex[i].transform.SetParent(dialogueBox.transform);
+				tex[i].transform.Translate(new Vector3(150 + (150 * i), 200, 0));
+			}
+
 
 			break;
 		}
