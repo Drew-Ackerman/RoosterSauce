@@ -6,12 +6,18 @@ public class bilingualTextBox : MonoBehaviour, IPointerClickHandler {
 	public string englText, thaiText;
 	public bool textToggle = false;
 
+	Text text;
+
+	public void Awake() {
+		text = GetComponent<Text> ();
+	}
+
 	//simple toggle between texts
 	public void OnPointerClick(PointerEventData p){
 		if(textToggle)
-			this.gameObject.GetComponent<Text>().text = englText;
+			text.text = englText;
 		else
-			this.gameObject.GetComponent<Text>().text = thaiText;
+			text.text = thaiText;
 		textToggle = !textToggle;
 	}
 }

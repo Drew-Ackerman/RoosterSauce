@@ -14,6 +14,10 @@ public class PlayerController : MonoBehaviour {
 		//rb2d = GetComponent<Rigidbody2D>();
 	}
 
+	public void enableMovement() {
+		moveActive = true;
+	}
+
 	// Update is called once per frame
 	void Update() {
 		if(moveActive) {
