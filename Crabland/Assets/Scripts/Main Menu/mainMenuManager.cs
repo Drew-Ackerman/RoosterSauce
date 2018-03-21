@@ -8,13 +8,7 @@ public class mainMenuManager : MonoBehaviour {
 	private float time1, time2;
 
 	void Start(){
-		crab = GameObject.Find("Crab");
-		crabBlue = GameObject.Find("CrabBlue");
 		time1 = Time.time;
-		GameObject newCrab = Object.Instantiate(crab);
-		newCrab.GetComponent<mainMenuCrabWalk>().isWalking = true;
-		GameObject newCrabBlue = Object.Instantiate(crabBlue);
-		newCrabBlue.GetComponent<mainMenuCrabWalk>().isWalking = true;
 	}
 	
 	// Update is called once per frame
@@ -24,11 +18,7 @@ public class mainMenuManager : MonoBehaviour {
 		if(time2 - time1 > 4) {
 			int rand = Random.Range(0, 10);
 			if(rand > 8) {
-				GameObject newCrabBlue = Object.Instantiate(crabBlue);
-				newCrabBlue.GetComponent<mainMenuCrabWalk>().isWalking = true;
 			} else {
-				GameObject newCrab = Object.Instantiate(crab);
-				newCrab.GetComponent<mainMenuCrabWalk>().isWalking = true;
 				time1 = Time.time;
 			}
 		}

@@ -15,9 +15,9 @@ TagManager:
   - 
   - 
   - Terrain
-  - 
-  - 
-  - 
+  - Background
+  - Foreground
+  - Player
   - 
   - 
   - 
@@ -41,4 +41,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 811495863
+    locked: 0
+  - name: Foreground
+    uniqueID: 3054859927
+    locked: 0
+  - name: Props
+    uniqueID: 696168167
+    locked: 0
+  - name: Player
+    uniqueID: 3019334903
     locked: 0
