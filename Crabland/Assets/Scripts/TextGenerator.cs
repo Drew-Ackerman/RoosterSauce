@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEditor;
 
+[CustomEditor(typeof(TextGenerator))]
 public class TextGenerator : MonoBehaviour {
 
 	[System.Serializable]
@@ -11,10 +13,28 @@ public class TextGenerator : MonoBehaviour {
 		public string thai;
 	}
 
-	public Word[] words;
+	Word[] words;
+	public string englishText;
+	public string thaiTranslation;
 	public GameObject uiWordPrefab;
 
 	void Awake() {
+	}
+
+	public void MakeText() {
+		bilingualTextBox firstBilingualTextBox;
+		if (firstBilingualTextBox = transform.GetComponentInChildren<bilingualTextBox>()) {
+			DestroyImmediate (firstBilingualTextBox.gameObject);
+		}
+
+		var englishWords = englishText.Split ('|');
+		var thaiWords = thaiTranslation.Split('|');
+		words = new Word [englishWords.Length];
+		for (var i = 0; i < englishWords.Length; i++) {
+			words [i].english = englishWords [i];
+			words [i].thai = thaiWords [i];
+		}
+
 		Transform previousTransform = transform;
 		foreach (Word word in words) 
 		{
@@ -26,10 +46,9 @@ public class TextGenerator : MonoBehaviour {
 			previousTransform = uiWord.transform;
 		}
 
-		GameObject firstUIWordGameObject;
-		if (firstUIWordGameObject = transform.GetComponentInChildren<bilingualTextBox>().gameObject)
+		if (firstBilingualTextBox = transform.GetComponentInChildren<bilingualTextBox>())
 		{
-			var rectTransform = firstUIWordGameObject.GetComponent<RectTransform> ();
+			var rectTransform = firstBilingualTextBox.gameObject.GetComponent<RectTransform> ();
 			rectTransform.anchorMax = new Vector2 (0, 1);
 			rectTransform.anchorMin = new Vector2 (0, 1);
 			rectTransform.anchoredPosition = new Vector2 (50, -20);
