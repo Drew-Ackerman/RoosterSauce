@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour {
 				Vector3 mousePos = Input.mousePosition;
 				//reduced to vector 2, vec 3 moved player unpredictably up or down
 				Vector2 touchPosition = Camera.main.ScreenToWorldPoint(new Vector2(mousePos.x, mousePos.y));                
-				transform.position = Vector3.Lerp(transform.position, touchPosition, Time.deltaTime);
+				transform.position = Vector3.MoveTowards(transform.position, touchPosition, Time.smoothDeltaTime*speed);
 			}
 		}
 	}
