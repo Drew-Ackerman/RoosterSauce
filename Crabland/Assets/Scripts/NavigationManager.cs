@@ -13,8 +13,8 @@ public class NavigationManager : MonoBehaviour {
     public Transform targetLocation; //Whats the current targetLocation to navigate towards? Null until selectNewLocation is called.
 
     void Start () {
-        generateCompass();
-        selectNewLocation();
+        generateCompass();  
+        selectNewLocation(); 
 	}
 	
 	// Update is called once per frame
@@ -23,12 +23,16 @@ public class NavigationManager : MonoBehaviour {
     }
 
     void selectNewLocation()
+    //Randomly pick a location out of the possibleLocations List. 
+    //Pass the location to the navigationscript that is attached to the compass holder
+    //Remove the location from possibleLocations List.
     {
         int selectedIndex = (int)(Mathf.Floor(Random.Range(0, possibleLocations.Count)));
         Location newLocation = possibleLocations[selectedIndex];
         possibleLocations.RemoveAt(selectedIndex);
 
-        targetLocation = newLocation.location;
+        targetLocation = newLocation.location;//This is just for debug purposes.
+
         Navigation navScript = compassHolder.GetComponentInChildren<Navigation>();
         navScript.targetLocation = targetLocation;
         navScript.startTracking();
@@ -36,6 +40,7 @@ public class NavigationManager : MonoBehaviour {
     }
 
     void generateCompass()
+    //Generate the compass at compass Position relative to the compass holder
     {
         GameObject compass = Instantiate(compassPrefab); //Instantiate the compass prefab. 
         compass.transform.parent = compassHolder.transform; // The compass is now a child under the compassHolder.

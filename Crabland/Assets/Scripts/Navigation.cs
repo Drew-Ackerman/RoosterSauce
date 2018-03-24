@@ -35,7 +35,6 @@ public class Navigation : MonoBehaviour {
 
     private void OnDrawGizmos()
     {
-        Gizmos.DrawLine(this.transform.position, new Vector3(collisionRadius, collisionRadius));
 
     }
 
