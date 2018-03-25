@@ -56,7 +56,7 @@ MonoBehaviour:
   tracking: 0
   targetLocation: {fileID: 0}
   collisionRadius: 5
-  layerMask:
+  collisionLayer:
     serializedVersion: 2
     m_Bits: 4096
 --- !u!212 &212894457920173836

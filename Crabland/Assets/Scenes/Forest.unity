@@ -10445,9 +10445,9 @@ MonoBehaviour:
   possibleLocations:
   - location: {fileID: 274651482}
     locationName: 0
-  - location: {fileID: 0}
+  - location: {fileID: 1265575289}
     locationName: 0
-  - location: {fileID: 0}
+  - location: {fileID: 924575911}
     locationName: 0
   compassPrefab: {fileID: 1720284272867206, guid: c7796f2990d89824db3d6d5224a67d97,
     type: 2}

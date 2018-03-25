@@ -31,10 +31,10 @@ public class NavigationManager : MonoBehaviour {
         Location newLocation = possibleLocations[selectedIndex];
         possibleLocations.RemoveAt(selectedIndex);
 
-        targetLocation = newLocation.location;//This is just for debug purposes.
+        targetLocation = newLocation.location;
 
         Navigation navScript = compassHolder.GetComponentInChildren<Navigation>();
-        navScript.targetLocation = targetLocation;
+        navScript.setTargetLocation(targetLocation);
         navScript.startTracking();
 
     }
@@ -47,11 +47,13 @@ public class NavigationManager : MonoBehaviour {
         compass.transform.Translate(compassPosition, compassHolder.transform); // Compass is now translated by the compassPositon relative to the holder of the compass.
     }
 
-    void locationHit(Collider2D locationCollider)
+    void locationHit(Collider2D hitCollider)
     {
-        if (true)
+        if(hitCollider.name == targetLocation.name)
         {
-            Debug.Log("Collide with: " + locationCollider.ToString());
+            Navigation navScript = compassHolder.GetComponentInChildren<Navigation>();
+            navScript.stopTracking();
+            navScript.setTargetLocation(null);
         }
     }
 
