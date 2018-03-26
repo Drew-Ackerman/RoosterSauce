@@ -269,11 +269,11 @@ TextureImporter:
     21300524: beach_tileset_262
     21300526: beach_tileset_263
     21300528: beach_tileset_264
-    21300530: beach_tileset_265
-    21300532: beach_tileset_266
+    21300530: orange starfish
+    21300532: blue starfish
     21300534: beach_tileset_267
     21300536: beach_tileset_268
-    21300538: beach_tileset_269
+    21300538: pink shell
     21300540: beach_tileset_270
     21300542: beach_tileset_271
     21300544: beach_tileset_272
@@ -5323,7 +5323,7 @@ TextureImporter:
         - {x: -6, y: 5}
       tessellationDetail: 0
     - serializedVersion: 2
-      name: beach_tileset_265
+      name: orange starfish
       rect:
         serializedVersion: 2
         x: 160
@@ -5344,7 +5344,7 @@ TextureImporter:
         - {x: 6, y: 7}
       tessellationDetail: 0
     - serializedVersion: 2
-      name: beach_tileset_266
+      name: blue starfish
       rect:
         serializedVersion: 2
         x: 176
@@ -5409,7 +5409,7 @@ TextureImporter:
         - {x: 8, y: 5}
       tessellationDetail: 0
     - serializedVersion: 2
-      name: beach_tileset_269
+      name: pink shell
       rect:
         serializedVersion: 2
         x: 224

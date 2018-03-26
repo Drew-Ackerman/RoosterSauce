@@ -35,7 +35,7 @@ TextureImporter:
     21300056: tf_icon_16_28
     21300058: tf_icon_16_29
     21300060: tf_icon_16_30
-    21300062: tf_icon_16_31
+    21300062: gem
     21300064: tf_icon_16_32
     21300066: tf_icon_16_33
     21300068: tf_icon_16_34
@@ -182,7 +182,7 @@ TextureImporter:
     21300350: tf_icon_16_175
     21300352: tf_icon_16_176
     21300354: tf_icon_16_177
-    21300356: tf_icon_16_178
+    21300356: gold key
     21300358: tf_icon_16_179
     21300360: tf_icon_16_180
     21300362: tf_icon_16_181
@@ -200,13 +200,13 @@ TextureImporter:
     21300386: tf_icon_16_193
     21300388: tf_icon_16_194
     21300390: tf_icon_16_195
-    21300392: tf_icon_16_196
-    21300394: tf_icon_16_197
-    21300396: tf_icon_16_198
-    21300398: tf_icon_16_199
+    21300392: lantern
+    21300394: torch
+    21300396: rope
+    21300398: magic lamp
     21300400: tf_icon_16_200
     21300402: tf_icon_16_201
-    21300404: tf_icon_16_202
+    21300404: mail
     21300406: tf_icon_16_203
     21300408: tf_icon_16_204
     21300410: tf_icon_16_205
@@ -227,11 +227,11 @@ TextureImporter:
     21300440: tf_icon_16_220
     21300442: tf_icon_16_221
     21300444: tf_icon_16_222
-    21300446: tf_icon_16_223
-    21300448: tf_icon_16_224
+    21300446: bell
+    21300448: trumpet
     21300450: tf_icon_16_225
-    21300452: tf_icon_16_226
-    21300454: tf_icon_16_227
+    21300452: guitar
+    21300454: drum
     21300456: tf_icon_16_228
     21300458: tf_icon_16_229
     21300460: tf_icon_16_230
@@ -247,7 +247,7 @@ TextureImporter:
     21300480: tf_icon_16_240
     21300482: tf_icon_16_241
     21300484: tf_icon_16_242
-    21300486: tf_icon_16_243
+    21300486: red feather
     21300488: tf_icon_16_244
     21300490: tf_icon_16_245
     21300492: tf_icon_16_246
@@ -259,16 +259,16 @@ TextureImporter:
     21300504: tf_icon_16_252
     21300506: tf_icon_16_253
     21300508: tf_icon_16_254
-    21300510: tf_icon_16_255
-    21300512: tf_icon_16_256
-    21300514: tf_icon_16_257
-    21300516: tf_icon_16_258
-    21300518: tf_icon_16_259
+    21300510: shell
+    21300512: roundshell
+    21300514: cone shell
+    21300516: anchor
+    21300518: fishing rod
     21300520: tf_icon_16_260
     21300522: tf_icon_16_261
-    21300524: tf_icon_16_262
+    21300524: fish
     21300526: tf_icon_16_263
-    21300528: tf_icon_16_264
+    21300528: tuna fish
     21300530: tf_icon_16_265
     21300532: tf_icon_16_266
     21300534: tf_icon_16_267
@@ -293,15 +293,15 @@ TextureImporter:
     21300572: tf_icon_16_286
     21300574: tf_icon_16_287
     21300576: tf_icon_16_288
-    21300578: tf_icon_16_289
+    21300578: ruby
     21300580: tf_icon_16_290
     21300582: tf_icon_16_291
     21300584: tf_icon_16_292
-    21300586: tf_icon_16_293
+    21300586: saphire
     21300588: tf_icon_16_294
     21300590: tf_icon_16_295
     21300592: tf_icon_16_296
-    21300594: tf_icon_16_297
+    21300594: gold
     21300596: tf_icon_16_298
     21300598: tf_icon_16_299
     21300600: tf_icon_16_300
@@ -309,7 +309,7 @@ TextureImporter:
     21300604: tf_icon_16_302
     21300606: tf_icon_16_303
     21300608: tf_icon_16_304
-    21300610: tf_icon_16_305
+    21300610: emerald
     21300612: tf_icon_16_306
     21300614: tf_icon_16_307
     21300616: tf_icon_16_308
@@ -329,7 +329,7 @@ TextureImporter:
     21300644: tf_icon_16_322
     21300646: tf_icon_16_323
     21300648: tf_icon_16_324
-    21300650: tf_icon_16_325
+    21300650: onyx
     21300652: tf_icon_16_326
     21300654: tf_icon_16_327
     21300656: tf_icon_16_328
@@ -879,7 +879,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_31
+      name: gem
       rect:
         serializedVersion: 2
         x: 0
@@ -2937,7 +2937,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_178
+      name: gold key
       rect:
         serializedVersion: 2
         x: 48
@@ -3189,7 +3189,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_196
+      name: lantern
       rect:
         serializedVersion: 2
         x: 80
@@ -3203,7 +3203,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_197
+      name: torch
       rect:
         serializedVersion: 2
         x: 96
@@ -3217,7 +3217,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_198
+      name: rope
       rect:
         serializedVersion: 2
         x: 112
@@ -3231,7 +3231,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_199
+      name: magic lamp
       rect:
         serializedVersion: 2
         x: 128
@@ -3273,7 +3273,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_202
+      name: mail
       rect:
         serializedVersion: 2
         x: 176
@@ -3567,7 +3567,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_223
+      name: bell
       rect:
         serializedVersion: 2
         x: 0
@@ -3581,7 +3581,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_224
+      name: trumpet
       rect:
         serializedVersion: 2
         x: 16
@@ -3609,7 +3609,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_226
+      name: guitar
       rect:
         serializedVersion: 2
         x: 48
@@ -3623,7 +3623,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_227
+      name: drum
       rect:
         serializedVersion: 2
         x: 64
@@ -3847,7 +3847,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_243
+      name: red feather
       rect:
         serializedVersion: 2
         x: 64
@@ -4015,7 +4015,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_255
+      name: shell
       rect:
         serializedVersion: 2
         x: 0
@@ -4029,7 +4029,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_256
+      name: roundshell
       rect:
         serializedVersion: 2
         x: 16
@@ -4043,7 +4043,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_257
+      name: cone shell
       rect:
         serializedVersion: 2
         x: 32
@@ -4057,7 +4057,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_258
+      name: anchor
       rect:
         serializedVersion: 2
         x: 48
@@ -4071,7 +4071,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_259
+      name: fishing rod
       rect:
         serializedVersion: 2
         x: 64
@@ -4113,7 +4113,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_262
+      name: fish
       rect:
         serializedVersion: 2
         x: 112
@@ -4141,7 +4141,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_264
+      name: tuna fish
       rect:
         serializedVersion: 2
         x: 144
@@ -4491,7 +4491,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_289
+      name: ruby
       rect:
         serializedVersion: 2
         x: 32
@@ -4547,7 +4547,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_293
+      name: saphire
       rect:
         serializedVersion: 2
         x: 96
@@ -4603,7 +4603,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_297
+      name: gold
       rect:
         serializedVersion: 2
         x: 160
@@ -4715,7 +4715,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_305
+      name: emerald
       rect:
         serializedVersion: 2
         x: 32
@@ -4995,7 +4995,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tf_icon_16_325
+      name: onyx
       rect:
         serializedVersion: 2
         x: 96

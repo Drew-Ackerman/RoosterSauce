@@ -33,6 +33,12 @@ public class PlayerController : MonoBehaviour {
 				// If the finger is on the screen, move the object smoothly to the touch position
 				moveTarget = Camera.main.ScreenToWorldPoint(new Vector2(touch.position.x, touch.position.y));   
 			}
+			if(Input.GetMouseButton(0)) {
+				Vector3 mousePos = Input.mousePosition;
+				//reduced to vector 2, vec 3 moved player unpredictably up or down
+				Vector2 touchPosition = Camera.main.ScreenToWorldPoint(new Vector2(mousePos.x, mousePos.y));                
+				transform.position = Vector3.MoveTowards(transform.position, touchPosition, Time.smoothDeltaTime*speed);
+			}
 		}
 		if(Input.GetMouseButton(0)) {
 			Vector3 mousePos = Input.mousePosition;
