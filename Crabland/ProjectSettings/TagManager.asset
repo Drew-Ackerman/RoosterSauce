@@ -19,7 +19,7 @@ TagManager:
   - Foreground
   - Player
   - NavigationMarker
-  - 
+  - Collectables
   - 
   - 
   - 
@@ -53,4 +53,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3019334903
+    locked: 0
+  - name: Collectable
+    uniqueID: 1598615141
     locked: 0
