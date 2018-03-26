@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// A collectable represents an object that the player will pickup. 
+///
+/// </summary>
 [System.Serializable]
 public class Collectable{
     public GameObject itemName;

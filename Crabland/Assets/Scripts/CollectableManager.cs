@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class CollectableManager : MonoBehaviour {
 
-    public GameObject collector;
-    public LayerMask collisionLayer;
-    public int pickupRadius;
+    public GameObject collector;    //The object that will pickup collectables
+    public LayerMask collisionLayer;//The collision layer to raycast onto to find collectables.
+    public int pickupRadius;        //The pickup radius of the raycast. 
 
-    public List<CollectableLocation> possibleLocations;
-    public List<GameObject> selectedCollectables;
+    public List<CollectableLocation> possibleLocations;//A list of CollectableLocations 
+    public List<GameObject> selectedCollectables;      //A list of the collectables that the collectable Manager creates. 
 
-    public GameObject collectablePrefab;
+    public GameObject collectablePrefab;               //The prefab used to create collectable GameObjects. 
 
     // Use this for initialization
     void Start() {
@@ -32,7 +32,8 @@ public class CollectableManager : MonoBehaviour {
 
         }
     }
-
+     
+    // Generates the collectables for each location. 
     public void GenerateItems()
     {
         foreach(CollectableLocation location in possibleLocations)
@@ -46,6 +47,7 @@ public class CollectableManager : MonoBehaviour {
                     location.PossibleSprites.RemoveAt(selectedIndex);
 
                     GameObject collectable = Instantiate<GameObject>(collectablePrefab);
+                    collectable.transform.parent = gameObject.transform;
                     collectable.GetComponent<SpriteRenderer>().sprite = selectedSprite;
                     collectable.GetComponent<Transform>().Translate(possibleLocation);
                     collectable.name = collectable.GetComponent<SpriteRenderer>().sprite.name;
