@@ -48,11 +48,14 @@ TagManager:
   - name: Foreground
     uniqueID: 3054859927
     locked: 0
-  - name: Props
-    uniqueID: 696168167
-    locked: 0
   - name: Player
     uniqueID: 3019334903
+    locked: 0
+  - name: Background Props
+    uniqueID: 696168167
+    locked: 0
+  - name: Foreground Props
+    uniqueID: 4115003493
     locked: 0
   - name: Collectable
     uniqueID: 1598615141
