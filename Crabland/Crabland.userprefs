@@ -1,8 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Activities\DirectionalLightMaze\GameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Activities\DirectionalLightMaze\LightControl.cs">
     <Files>
-      <File FileName="Assets\Scripts\Activities\DirectionalLightMaze\GameManager.cs" Line="22" Column="54" />
+      <File FileName="Assets\Scripts\Activities\DirectionalLightMaze\GameManager.cs" Line="27" Column="3" />
+      <File FileName="Assets\Scripts\Activities\DirectionalLightMaze\LightControl.cs" Line="19" Column="16" />
+      <File FileName="Assets\Scripts\Activities\DirectionalLightMaze\AreaExit.cs" Line="9" Column="45" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
