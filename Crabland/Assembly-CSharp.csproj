@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\Collectable.cs" />
      <Compile Include="Assets\Scripts\CollectableLocation.cs" />
      <Compile Include="Assets\Scripts\CollectableManager.cs" />
+     <Compile Include="Assets\Scripts\Forest\ForestEntranceTile.cs" />
      <Compile Include="Assets\Scripts\loadDialogue.cs" />
      <Compile Include="Assets\Scripts\Main Menu\mainMenuManager.cs" />
      <Compile Include="Assets\Scripts\Navigation.cs" />
