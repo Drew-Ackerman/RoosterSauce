@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AreaExitForest: MonoBehaviour {
+public class AreaExit : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D col){
 		//if player hits exit barrier, load forest
