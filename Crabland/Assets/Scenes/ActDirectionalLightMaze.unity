@@ -1361,6 +1361,7 @@ MonoBehaviour:
     m_Bits: 256
   facingDirection: {x: 0, y: 1}
   maxLightDistance: 7
+  minLightDistance: 5
   player: {fileID: 0}
 --- !u!1001 &240268384
 Prefab:
@@ -14868,7 +14869,7 @@ GameObject:
   - component: {fileID: 1847617492}
   - component: {fileID: 1847617491}
   m_Layer: 0
-  m_Name: AreaExit
+  m_Name: AreaExitToForest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14882,7 +14883,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1847617490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 180fa6a6c7e970849be79a9e559b2be2, type: 3}
+  m_Script: {fileID: 11500000, guid: bc845f2964ec41e43b0638d5d9ec3b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &1847617492
