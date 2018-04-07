@@ -4977,12 +4977,12 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -8, y: 3}
+      - - {x: -8, y: 8}
         - {x: -8, y: -8}
-        - {x: 8, y: -8}
+        - {x: -7.412155, y: -3.1704712}
+        - {x: -5.444153, y: 2.6130981}
+        - {x: 1.0023193, y: 6.345276}
         - {x: 8, y: 8}
-        - {x: 4, y: 8}
-        - {x: -5, y: 7}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_496
@@ -4998,8 +4998,8 @@ TextureImporter:
       outline: []
       physicsShape:
       - - {x: -8, y: 8}
-        - {x: -8, y: -8}
-        - {x: 8, y: -8}
+        - {x: -8, y: 3.418396}
+        - {x: 8, y: 3.418396}
         - {x: 8, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
@@ -5016,9 +5016,12 @@ TextureImporter:
       outline: []
       physicsShape:
       - - {x: -8, y: 8}
-        - {x: -8, y: -8}
-        - {x: 8, y: -8}
+        - {x: -8, y: 6.4695435}
+        - {x: -0.08319092, y: 6.265869}
+        - {x: 5.83432, y: 2.9031982}
+        - {x: 8, y: -4.2821045}
         - {x: 8, y: 4}
+        - {x: 8, y: 8}
         - {x: 2, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
@@ -5232,8 +5235,8 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -8, y: 8}
-        - {x: -8, y: -8}
+      - - {x: 6.4134216, y: 8}
+        - {x: 6.226227, y: -8}
         - {x: 8, y: -8}
         - {x: 8, y: 8}
       tessellationDetail: 0
@@ -5251,9 +5254,9 @@ TextureImporter:
       outline: []
       physicsShape:
       - - {x: -8, y: 8}
-        - {x: -8, y: -8}
-        - {x: 8, y: -8}
-        - {x: 8, y: 8}
+        - {x: -8, y: 3.40271}
+        - {x: -3.8173523, y: 3.6099854}
+        - {x: -3.8173523, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_527
@@ -5268,9 +5271,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -8, y: 8}
-        - {x: -8, y: -8}
-        - {x: 8, y: -8}
+      - - {x: 4.0246887, y: 8}
+        - {x: 4.232025, y: 2.5733643}
+        - {x: 8, y: 2.3660889}
         - {x: 8, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
@@ -5522,8 +5525,8 @@ TextureImporter:
       physicsShape:
       - - {x: -8, y: 8}
         - {x: -8, y: -8}
-        - {x: 8, y: -8}
-        - {x: 8, y: 8}
+        - {x: -5.664673, y: -8}
+        - {x: -5.664673, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_558
@@ -5538,10 +5541,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -8, y: 8}
+      - - {x: -8, y: -3.1594238}
         - {x: -8, y: -8}
-        - {x: 8, y: -8}
-        - {x: 8, y: 8}
+        - {x: -4.876251, y: -8}
+        - {x: -5.2196198, y: -3.1593933}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_559
@@ -5556,10 +5559,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -8, y: 8}
-        - {x: -8, y: -8}
+      - - {x: 5.2196045, y: -2.4726868}
+        - {x: 5.2196045, y: -8}
         - {x: 8, y: -8}
-        - {x: 8, y: 8}
+        - {x: 8, y: -2.6443481}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_560
@@ -5574,10 +5577,12 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -8, y: 8}
+      - - {x: 2.1217957, y: -4.0855103}
+        - {x: -4.0357056, y: -0.63101196}
+        - {x: -8, y: 8}
         - {x: -8, y: -8}
         - {x: 8, y: -8}
-        - {x: 8, y: 8}
+        - {x: 8, y: -6.0927124}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_561
@@ -5592,7 +5597,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -8, y: 8}
+      - - {x: 6.0818176, y: 3.4194336}
+        - {x: 2.4108276, y: -1.7211304}
+        - {x: -2.622589, y: -4.338684}
+        - {x: -8, y: -5.661316}
         - {x: -8, y: -8}
         - {x: 8, y: -8}
         - {x: 8, y: 8}
@@ -5808,10 +5816,11 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -8, y: 8}
+      - - {x: -4.7109528, y: 0.68096924}
+        - {x: -8, y: 8}
         - {x: -8, y: -8}
         - {x: 8, y: -8}
-        - {x: 8, y: 8}
+        - {x: 0.32533264, y: -3.2312317}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_590
@@ -5826,10 +5835,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -8, y: 8}
+      - - {x: -8, y: -4.915924}
         - {x: -8, y: -8}
         - {x: 8, y: -8}
-        - {x: 8, y: 8}
+        - {x: 8, y: -4.915924}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_591
@@ -5844,7 +5853,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -8, y: 8}
+      - - {x: 5.0249634, y: 2.7420044}
+        - {x: -0.7191467, y: -4.381714}
+        - {x: -8, y: -5.103119}
         - {x: -8, y: -8}
         - {x: 8, y: -8}
         - {x: 8, y: 8}
@@ -6619,8 +6630,9 @@ TextureImporter:
       outline: []
       physicsShape:
       - - {x: -8, y: 8}
-        - {x: -8, y: -8}
-        - {x: 8, y: -8}
+        - {x: -3.9888306, y: 2.7395935}
+        - {x: 5.0053253, y: -4.118225}
+        - {x: 7.8706055, y: -5.670929}
         - {x: 8, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
@@ -6655,8 +6667,8 @@ TextureImporter:
       outline: []
       physicsShape:
       - - {x: -8, y: 8}
-        - {x: -8, y: -8}
-        - {x: 8, y: -8}
+        - {x: -8, y: -5.8003235}
+        - {x: 0.36582947, y: -0.49520874}
         - {x: 8, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
@@ -7194,10 +7206,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -8, y: 8}
+      - - {x: -8, y: -2.1150513}
         - {x: -8, y: -8}
-        - {x: 8, y: -8}
-        - {x: 8, y: 8}
+        - {x: 1.0535278, y: -8}
+        - {x: 1.1753998, y: -1.9066162}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_731
@@ -7230,10 +7242,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -8, y: 8}
-        - {x: -8, y: -8}
+      - - {x: -0.5463562, y: -2.5415955}
+        - {x: -0.5463562, y: -8}
         - {x: 8, y: -8}
-        - {x: 8, y: 8}
+        - {x: 8, y: -2.541565}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_733
@@ -7484,8 +7496,8 @@ TextureImporter:
       physicsShape:
       - - {x: -8, y: 8}
         - {x: -8, y: -8}
-        - {x: 8, y: -8}
-        - {x: 8, y: 8}
+        - {x: 0.20045471, y: -8}
+        - {x: 0.32232666, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_763
@@ -7518,8 +7530,8 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -8, y: 8}
-        - {x: -8, y: -8}
+      - - {x: -1.5409851, y: 8}
+        - {x: -1.5409851, y: -8}
         - {x: 8, y: -8}
         - {x: 8, y: 8}
       tessellationDetail: 0
@@ -7772,8 +7784,8 @@ TextureImporter:
       physicsShape:
       - - {x: -8, y: 8}
         - {x: -8, y: -8}
-        - {x: 8, y: -8}
-        - {x: 8, y: 8}
+        - {x: -0.043289185, y: -8}
+        - {x: -0.16516113, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_795
@@ -7806,8 +7818,8 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -8, y: 8}
-        - {x: -8, y: -8}
+      - - {x: -1.1753845, y: 8}
+        - {x: -1.2972565, y: -8}
         - {x: 8, y: -8}
         - {x: 8, y: 8}
       tessellationDetail: 0
@@ -7913,7 +7925,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_12
@@ -7927,7 +7943,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_13
@@ -7941,7 +7961,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_14
@@ -7955,7 +7979,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_15
@@ -7969,7 +7997,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_88
@@ -7983,7 +8015,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_89
@@ -7997,7 +8033,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_90
@@ -8011,7 +8051,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_91
@@ -8025,7 +8069,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_92
@@ -8039,7 +8087,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_93
@@ -8053,7 +8105,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_94
@@ -8067,7 +8123,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
     - serializedVersion: 2
       name: terrain_95
@@ -8081,7 +8141,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
       tessellationDetail: 0
     outline: []
     physicsShape: []
