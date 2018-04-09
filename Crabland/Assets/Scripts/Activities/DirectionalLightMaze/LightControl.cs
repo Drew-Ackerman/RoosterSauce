@@ -12,7 +12,7 @@ public class LightControl : MonoBehaviour {
 	public GameObject player;
 
 	//'flashlight' used by player
-	private Light light;
+	new private Light light;
 
 	void Start(){
 		light = gameObject.GetComponent<Light>();

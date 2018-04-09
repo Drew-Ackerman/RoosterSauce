@@ -6,6 +6,11 @@ using UnityEngine;
 public class TextToAudio : MonoBehaviour {
 	//public AudioSource tts;
 
+	public void Start() {
+		Debug.Log("setting language");
+		TTSManager.SetLanguage (TTSManager.ENGLISH);
+	}
+
 	public void Read() {
 		Debug.Log("reading");
 		TTSManager.Speak("I can hear the towels from your closet waiting for reconfort.", true);
