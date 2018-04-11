@@ -27,7 +27,7 @@ public class WaterGun : MonoBehaviour {
 			scale.x = 1f;
 		}
 		transform.localScale = scale;
-		Debug.Log (angle);
+		//Debug.Log (angle);
 		var rotation = transform.rotation;
 		var angles = rotation.eulerAngles;
 		angles.z = angle;
