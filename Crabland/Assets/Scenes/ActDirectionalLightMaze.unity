@@ -1361,6 +1361,7 @@ MonoBehaviour:
     m_Bits: 256
   facingDirection: {x: 0, y: 1}
   maxLightDistance: 7
+  minLightDistance: 5
   player: {fileID: 0}
 --- !u!1001 &240268384
 Prefab:
@@ -2414,6 +2415,22 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3fb2c618ae0f7134687c3bce9aa62183, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &619476898 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1498250461741700, guid: 4a5c30141d8405a4e91b9b34e8208eba,
+    type: 2}
+  m_PrefabInternal: {fileID: 528248277}
+--- !u!114 &619476903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 619476898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77555705fb282490bb38fd59435e8233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &624326048 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4893976973067906, guid: 3fb2c618ae0f7134687c3bce9aa62183,
@@ -14869,7 +14886,7 @@ GameObject:
   - component: {fileID: 1847617491}
   m_Layer: 0
   m_Name: AreaExit
-  m_TagString: Untagged
+  m_TagString: Exit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14894,7 +14911,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

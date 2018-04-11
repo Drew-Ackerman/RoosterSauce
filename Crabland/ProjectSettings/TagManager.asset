@@ -11,6 +11,13 @@ TagManager:
   - CorrectTarget3
   - CorrectTarget4
   - CorrectTarget
+  - Button
+  - PopUpPanel
+  - CorrectTarget5
+  - Exit
+  - EnterHouse
+  - EnterMarket
+  - EnterMaze
   layers:
   - Default
   - TransparentFX

@@ -14,3 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Forest.unity
     guid: e0ebbdb3ea3f02e408789822dfc20f7f
+  - enabled: 1
+    path: Assets/Scenes/Inside.unity
+    guid: 597467a1cdfd1db4190d0388ec81c17b
+  - enabled: 1
+    path: Assets/Scenes/Market.unity
+    guid: 802cce7789cbe634c87dfed8ce011ed2
+  - enabled: 1
+    path: Assets/Scenes/ActCompleteSentence.unity
+    guid: 11ef2a470af565641a81894a8bc4323f
