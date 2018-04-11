@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - bgTile
+  - WaterDrop
+  - CorrectTarget1
+  - CorrectTarget2
+  - CorrectTarget3
+  - CorrectTarget4
+  - CorrectTarget
   layers:
   - Default
   - TransparentFX
@@ -20,7 +26,7 @@ TagManager:
   - Player
   - NavigationMarker
   - Collectables
-  - 
+  - WaterDrop
   - 
   - 
   - 

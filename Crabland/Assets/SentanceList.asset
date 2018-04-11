@@ -12,11 +12,7 @@ MonoBehaviour:
   m_Name: SentanceList
   m_EditorClassIdentifier: 
   sentanceList:
-  - sentance: New Sentance
-    englishAudio: {fileID: 0}
-    thaiAudio: {fileID: 0}
-    words: []
-  - sentance: New Sentance
+  - sentance: Shoot the red apple.
     englishAudio: {fileID: 0}
     thaiAudio: {fileID: 0}
     words: []

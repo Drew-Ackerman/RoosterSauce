@@ -62,10 +62,16 @@
      <Compile Include="Assets\Scripts\Collectable\Collectable.cs" />
      <Compile Include="Assets\Scripts\Collectable\CollectableLocation.cs" />
      <Compile Include="Assets\Scripts\Collectable\CollectableManager.cs" />
+     <Compile Include="Assets\Scripts\CorrectTarget.cs" />
+     <Compile Include="Assets\Scripts\CorrectTarget1.cs" />
+     <Compile Include="Assets\Scripts\CorrectTarget2.cs" />
+     <Compile Include="Assets\Scripts\CorrectTarget3.cs" />
+     <Compile Include="Assets\Scripts\CorrectTarget4.cs" />
      <Compile Include="Assets\Scripts\Dialogger.cs" />
      <Compile Include="Assets\Scripts\Forest\ForestEntranceTile.cs" />
      <Compile Include="Assets\Scripts\loadDialogue.cs" />
      <Compile Include="Assets\Scripts\Main Menu\mainMenuManager.cs" />
+     <Compile Include="Assets\Scripts\MarketManager.cs" />
      <Compile Include="Assets\Scripts\Navigation\Navigation.cs" />
      <Compile Include="Assets\Scripts\Navigation\NavigationManager.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
@@ -80,6 +86,8 @@
      <Compile Include="Assets\Scripts\TextGenerator.cs" />
      <Compile Include="Assets\Scripts\TextGeneratorEditor.cs" />
      <Compile Include="Assets\Scripts\TextToAudio.cs" />
+     <Compile Include="Assets\Scripts\WaterBullet.cs" />
+     <Compile Include="Assets\Scripts\WaterGun.cs" />
      <Compile Include="Assets\Takohi\Examples\AndroidSpeechRecognizerPlugin\SpeechRecognizerDemoSceneManager.cs" />
      <Compile Include="Assets\Takohi\Examples\AndroidTTSPlugin\TTSDemoSceneManager.cs" />
      <Compile Include="Assets\Tilemap\Brushes\Tint Brush Smooth\Scripts\TintTextureGenerator.cs" />
@@ -89,7 +97,6 @@
      <Compile Include="Assets\Tilemap\Tiles\Random Tile\Scripts\RandomTile.cs" />
      <Compile Include="Assets\Tilemap\Tiles\Rule Tile\Scripts\RuleTile.cs" />
      <Compile Include="Assets\Tilemap\Tiles\Terrain Tile\Scripts\TerrainTile.cs" />
-     <Compile Include="Assets\WaterGun.cs" />
      <None Include="Assets\Takohi\Android-TTS-Plugin-Read-Me.txt" />
      <None Include="Assets\Tilemap\Brushes\Tint Brush Smooth\Shaders\TintedTilemap.shader" />
      <None Include="Assets\Takohi\Android-Speech-Recognizer-Plugin-Read-Me.txt" />

@@ -6,7 +6,7 @@ using UnityEngine;
 public class TextToAudio : MonoBehaviour {
 	//public AudioSource tts;
 
-	public void Start() {
+	public void Awake() {
 		Debug.Log("setting language");
 		TTSManager.SetLanguage (TTSManager.ENGLISH);
 	}

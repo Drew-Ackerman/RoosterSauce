@@ -4,7 +4,7 @@ timeCreated: 1521344706
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: tf_icon_16_0
+    21300000: WaterDroplet
     21300002: tf_icon_16_1
     21300004: tf_icon_16_2
     21300006: tf_icon_16_3
@@ -3296,6 +3296,20 @@ TextureImporter:
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WaterDroplet
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
