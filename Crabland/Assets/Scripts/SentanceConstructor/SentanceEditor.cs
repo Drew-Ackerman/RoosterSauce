@@ -52,9 +52,16 @@ public class SentanceEditor : EditorWindow
         {
             GUILayout.BeginHorizontal();
             GUILayout.Space(10);
+            string stringListName = GUILayout.TextArea("StringList asset name");
             if (GUILayout.Button("Create New Sentance List", GUILayout.ExpandWidth(false)))
             {
-                CreateNewSentanceList();
+                    stringListName = stringListName.Trim();
+                    if (string.IsNullOrEmpty(stringListName))
+                    { 
+                        EditorUtility.DisplayDialog("Unable to save prefab", "Please specify a valid prefab name.", "Close");
+                        return;
+                    }
+                    CreateNewSentanceList(stringListName);
             }
             if (GUILayout.Button("Open Existing Sentance List", GUILayout.ExpandWidth(false)))
             {
@@ -103,12 +110,16 @@ public class SentanceEditor : EditorWindow
             {
                 GUILayout.BeginHorizontal();
                 viewIndex = Mathf.Clamp(EditorGUILayout.IntField("Current Sentance", viewIndex, GUILayout.ExpandWidth(false)), 1, sentanceList.sentanceList.Count);
-                //Mathf.Clamp (viewIndex, 1, inventoryItemList.itemList.Count);
+                Mathf.Clamp (viewIndex, 1, sentanceList.sentanceList.Count);
                 EditorGUILayout.LabelField("of   " + sentanceList.sentanceList.Count.ToString() + "  items", "", GUILayout.ExpandWidth(false));
                 GUILayout.EndHorizontal();
 
                 GUILayout.BeginHorizontal();
-                sentanceList.sentanceList[viewIndex - 1].sentance = EditorGUILayout.TextField("Sentance Text", sentanceList.sentanceList[viewIndex - 1].sentance as string);
+                sentanceList.sentanceList[viewIndex - 1].sentance = EditorGUILayout.TextField("English Text", sentanceList.sentanceList[viewIndex - 1].sentance as string);
+                GUILayout.EndHorizontal();
+
+                GUILayout.BeginHorizontal();
+                sentanceList.sentanceList[viewIndex - 1].thaiSentance = EditorGUILayout.TextField("Thai Text", sentanceList.sentanceList[viewIndex - 1].thaiSentance as string);
                 GUILayout.EndHorizontal();
 
                 GUILayout.BeginHorizontal();
@@ -132,13 +143,13 @@ public class SentanceEditor : EditorWindow
         }
     }
 
-    void CreateNewSentanceList()
+    void CreateNewSentanceList(string stringListName)
     {
         // There is no overwrite protection here!
         // There is No "Are you sure you want to overwrite your existing object?" if it exists.
         // This should probably get a string from the user to create a new name and pass it ...
         viewIndex = 1;
-        sentanceList = CreateSentanceList.Create();
+        sentanceList = CreateSentanceList.Create(stringListName);
         if (sentanceList)
         {
             sentanceList.sentanceList = new List<Sentance>();
@@ -165,12 +176,11 @@ public class SentanceEditor : EditorWindow
 
     void AddItem()
     {
-        Sentance newScentance = new Sentance();
-        newScentance.sentance = "New Sentance";
-        newScentance.englishAudio = null;
-        newScentance.thaiAudio = null;
-        newScentance.words = null;
-        sentanceList.sentanceList.Add(newScentance);
+        Sentance sentance = new Sentance();
+        sentance.sentance = "New Sentance";
+        sentance.englishAudio = null;
+        sentance.thaiAudio = null;
+        sentanceList.sentanceList.Add(sentance);
         viewIndex = sentanceList.sentanceList.Count;
     }
 

@@ -10,13 +10,16 @@ public class areaGameManager : MonoBehaviour {
     public List<string> areaNameList; // A string list of area names.
     public NavigationManager navigationManager; //Reference to a NavgationManager
     public CollectableManager collectableManager; //Reference to a CollectableManager 
+    public Canvas dialogUI;
+    public Canvas cardUI;
+
 	// Use this for initialization
 	void Start () {
         navigationManager.SendMessage("GenerateCompass"); 
-        selectNextArea(); 
+        NextQuest(); 
 	}
 
-    public void selectNextArea()
+    public void NextQuest()
     {
         int selectedIndex = (int)(Mathf.Floor(Random.Range(0, areaNameList.Count))); //Determine a random index
         string selectedAreaName = areaNameList[selectedIndex]; //select at selectedIndex

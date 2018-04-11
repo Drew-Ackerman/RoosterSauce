@@ -57,7 +57,7 @@ public class NavigationManager : MonoBehaviour {
     {
         GameObject compass = Instantiate(compassPrefab); //Instantiate the compass prefab. 
         compass.transform.parent = compassHolder.transform; // The compass is now a child under the compassHolder.
-        compass.transform.Translate(compassPosition, compassHolder.transform); // Compass is now translated by the compassPositon relative to the holder of the compass.
+        compass.transform.localPosition = new Vector2(0, 2); // Compass is now translated by the compassPositon relative to the holder of the compass.
     }
 
     void locationHit(Collider2D hitCollider)

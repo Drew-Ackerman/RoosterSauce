@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551790a8005f41142b13c9b371ba6ba7, type: 3}
+  m_Name: ForestCollectableLocation
+  m_EditorClassIdentifier: 
+  collectableLocationList:
+  - LocationName: Farm
+    PossibleLocations:
+    - {x: 15, y: -6, z: 0}
+    - {x: 21, y: -10, z: 0}
+    - {x: 28, y: -11, z: 0}
+    - {x: 15, y: -12, z: 0}
+    - {x: 26, y: -5, z: 0}
+    - {x: 5, y: -18, z: 0}
+    - {x: 7, y: -6, z: 0}
+    PossibleSprites:
+    - {fileID: 21301194, guid: 4d9ec48bbc0023843b029e3d310782a1, type: 3}
+    - {fileID: 21301258, guid: 4d9ec48bbc0023843b029e3d310782a1, type: 3}
+    - {fileID: 21301314, guid: 4d9ec48bbc0023843b029e3d310782a1, type: 3}
+    - {fileID: 21301378, guid: 4d9ec48bbc0023843b029e3d310782a1, type: 3}
+    - {fileID: 21301250, guid: 4d9ec48bbc0023843b029e3d310782a1, type: 3}
+    - {fileID: 21301186, guid: 4d9ec48bbc0023843b029e3d310782a1, type: 3}
+    - {fileID: 21301150, guid: 4d9ec48bbc0023843b029e3d310782a1, type: 3}
+    - {fileID: 21301386, guid: 4d9ec48bbc0023843b029e3d310782a1, type: 3}
+    - {fileID: 21301142, guid: 4d9ec48bbc0023843b029e3d310782a1, type: 3}
+    - {fileID: 21301078, guid: 4d9ec48bbc0023843b029e3d310782a1, type: 3}
+    - {fileID: 21301086, guid: 4d9ec48bbc0023843b029e3d310782a1, type: 3}
+    - {fileID: 21301322, guid: 4d9ec48bbc0023843b029e3d310782a1, type: 3}
+  - LocationName: Mountain
+    PossibleLocations:
+    - {x: -25, y: 33, z: 0}
+    - {x: -38, y: 34, z: 0}
+    - {x: -32, y: 33, z: 0}
+    - {x: -23, y: 33, z: 0}
+    - {x: -17, y: 31, z: 0}
+    - {x: -30, y: 28, z: 0}
+    - {x: -38, y: 24, z: 0}
+    - {x: -22, y: 24, z: 0}
+    PossibleSprites:
+    - {fileID: 21300446, guid: 0627bdb1994707c49809a1efee5f3e75, type: 3}
+    - {fileID: 21300454, guid: 0627bdb1994707c49809a1efee5f3e75, type: 3}
+    - {fileID: 21300452, guid: 0627bdb1994707c49809a1efee5f3e75, type: 3}
+    - {fileID: 21300448, guid: 0627bdb1994707c49809a1efee5f3e75, type: 3}
+  - LocationName: Beach
+    PossibleLocations:
+    - {x: -41, y: 13, z: 0}
+    - {x: -37, y: 6, z: 0}
+    - {x: -28, y: -7, z: 0}
+    - {x: -31, y: -14, z: 0}
+    - {x: -15, y: -18, z: 0}
+    - {x: -10, y: -28, z: 0}
+    PossibleSprites:
+    - {fileID: 21300514, guid: 0627bdb1994707c49809a1efee5f3e75, type: 3}
+    - {fileID: 21300062, guid: 0627bdb1994707c49809a1efee5f3e75, type: 3}
+    - {fileID: 21300486, guid: 0627bdb1994707c49809a1efee5f3e75, type: 3}
+    - {fileID: 21300512, guid: 0627bdb1994707c49809a1efee5f3e75, type: 3}
+    - {fileID: 21300578, guid: 0627bdb1994707c49809a1efee5f3e75, type: 3}
+    - {fileID: 21300510, guid: 0627bdb1994707c49809a1efee5f3e75, type: 3}

@@ -12,15 +12,393 @@ MonoBehaviour:
   m_Name: WordList
   m_EditorClassIdentifier: 
   wordList:
+  - englishText: kiet
+    thaiText: "\u0E02\u0E35\u0E22\u0E14"
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 8300000, guid: 8bca4ca0f0a180a4a951dcc26883393e, type: 3}
+    isEnglish: 1
+  - englishText: tomorrow
+    thaiText: "\u0E27\u0E31\u0E19\u0E1E\u0E23\u0E38\u0E48\u0E07\u0E19\u0E35\u0E49"
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 8300000, guid: 8bca4ca0f0a180a4a951dcc26883393e, type: 3}
+    isEnglish: 1
+  - englishText: is
+    thaiText: "\u0E04\u0E37\u0E2D"
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 8300000, guid: 8bca4ca0f0a180a4a951dcc26883393e, type: 3}
+    isEnglish: 1
+  - englishText: uncle
+    thaiText: "\u0E25\u0E38\u0E07"
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 8300000, guid: 8bca4ca0f0a180a4a951dcc26883393e, type: 3}
+    isEnglish: 1
+  - englishText: songkran
+    thaiText: "\u0E2A\u0E07\u0E01\u0E23\u0E32\u0E19\u0E15\u0E4C"
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 8300000, guid: 8bca4ca0f0a180a4a951dcc26883393e, type: 3}
+    isEnglish: 1
+  - englishText: festival
+    thaiText: " \u0E07\u0E32\u0E19\u0E40\u0E17\u0E28\u0E01\u0E32\u0E25"
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 8300000, guid: 8bca4ca0f0a180a4a951dcc26883393e, type: 3}
+    isEnglish: 1
+  - englishText: at
+    thaiText: " \u0E17\u0E35\u0E48"
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 8300000, guid: 8bca4ca0f0a180a4a951dcc26883393e, type: 3}
+    isEnglish: 1
+  - englishText: go
+    thaiText: " \u0E44\u0E1B"
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: hello
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: the
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: many
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: people
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: with
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 8300000, guid: 8bca4ca0f0a180a4a951dcc26883393e, type: 3}
+    isEnglish: 1
+  - englishText: water
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: and
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: eat
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: good
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: food
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: today
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: we
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: need
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: to
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: get
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: ready
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: okay
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: I
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: am
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: you
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: find
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: instrument
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: decoration
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: from
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: farm
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: mountain
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: beach
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: bring
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: it
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: here
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: as
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: soon
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: will
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: right
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: back
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: see
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: found
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: items
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: very
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: happy
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: that
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: those
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: for
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: me
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: have
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: a
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: present
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: hands
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: squirtgun
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: fill
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: this
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: up
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: come
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: market
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: glad
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: made
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: play
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: fun
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: squirt
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: do
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: not
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: .
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: '?'
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: '!'
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: ','
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: ': '
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: excited
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
+  - englishText: be
+    thaiText: thai text
+    englishAudio: {fileID: 0}
+    thaiAudio: {fileID: 0}
+    isEnglish: 1
   - englishText: english text
     thaiText: thai text
     englishAudio: {fileID: 0}
     thaiAudio: {fileID: 0}
+    isEnglish: 1
   - englishText: english text
     thaiText: thai text
     englishAudio: {fileID: 0}
     thaiAudio: {fileID: 0}
-  - englishText: english text
-    thaiText: thai text
-    englishAudio: {fileID: 0}
-    thaiAudio: {fileID: 0}
+    isEnglish: 1

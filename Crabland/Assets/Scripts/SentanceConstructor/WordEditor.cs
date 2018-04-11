@@ -123,6 +123,7 @@ public class WordEditor : EditorWindow
                 wordList.wordList[viewIndex - 1].thaiAudio = EditorGUILayout.ObjectField("Thai Audio", wordList.wordList[viewIndex - 1].thaiAudio, typeof(AudioClip), false) as AudioClip;
                 GUILayout.EndHorizontal();
 
+
                 GUILayout.Space(10);
             }
             else

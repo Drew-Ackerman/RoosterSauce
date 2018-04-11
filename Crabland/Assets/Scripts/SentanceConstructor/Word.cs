@@ -8,4 +8,5 @@ public class Word {
     public string thaiText;
     public AudioClip englishAudio;
     public AudioClip thaiAudio;
+    public bool isEnglish = true;
 }
