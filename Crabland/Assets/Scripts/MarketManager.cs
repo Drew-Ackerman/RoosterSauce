@@ -111,8 +111,9 @@ public class MarketManager : MonoBehaviour {
 		text [currentRound].enabled = true; 
 
 		if (currentRound < 5) {
-			
 			spawnTarget ();
+		} else {
+			Application.LoadLevel ("Forest");
 		}
 	}
 

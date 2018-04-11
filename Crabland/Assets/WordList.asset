@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wordList:
   - englishText: kiet
-    thaiText: "\u0E02\u0E35\u0E22\u0E14"
+    thaiText: 
     englishAudio: {fileID: 0}
     thaiAudio: {fileID: 8300000, guid: 8bca4ca0f0a180a4a951dcc26883393e, type: 3}
     isEnglish: 1
