@@ -597,7 +597,7 @@ TextureImporter:
     21301180: ff_master_tile_sheet_844
     21301182: ff_master_tile_sheet_845
     21301184: ff_master_tile_sheet_846
-    21301186: potatote
+    21301186: potatoe
     21301188: ff_master_tile_sheet_848
     21301190: ff_master_tile_sheet_849
     21301192: ff_master_tile_sheet_850
@@ -5763,7 +5763,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: potatote
+      name: potatoe
       rect:
         serializedVersion: 2
         x: 64
