@@ -18,6 +18,11 @@ TagManager:
   - EnterHouse
   - EnterMarket
   - EnterMaze
+  - Apple
+  - fish
+  - Flower
+  - Grapes
+  - Cousin
   layers:
   - Default
   - TransparentFX
