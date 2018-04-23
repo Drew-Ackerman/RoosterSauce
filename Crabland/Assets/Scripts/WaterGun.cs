@@ -49,7 +49,7 @@ public class WaterGun : MonoBehaviour {
 
 
 
-		if(Input.GetMouseButtonDown(0)) {//Input.GetMouseButton(1)) {
+		if(Input.GetMouseButton(0)) {//Input.GetMouseButton(1)) {
 			Fire();
 		}
 

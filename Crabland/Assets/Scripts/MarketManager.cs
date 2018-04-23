@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MarketManager : MonoBehaviour {
 
@@ -11,48 +12,54 @@ public class MarketManager : MonoBehaviour {
 
 	[SerializeField]
 	private Text[] text;
-
+	[SerializeField]
+	private Text[] winText;
+	[SerializeField]
+	private GameObject[] winImage;
 	[SerializeField]
 	private GameObject correctTarget;
-
 	[SerializeField]
 	private GameObject correctTarget1;
-
 	[SerializeField]
 	private GameObject correctTarget2;
-
 	[SerializeField]
 	private GameObject correctTarget3;
-
 	[SerializeField]
 	private GameObject correctTarget4;
-
 	[SerializeField]
 	public Transform[] spawnLocations;
-
 	[SerializeField]
 	public ArrayList spawnLocationsList = new ArrayList();
 
 	public int currentRound = 0;
 
+	public Text scoreText;
 	public int score;
+
 
 
 	//Transform randomLocation = spawnLocations [Random.Range (0, spawnLocations.Length)];
 
 	void Start (){
+		score = 0;
 		targets = new GameObject[targetPrefabs.Length];
 		spawnTarget ();
 
+
 		text [0].GetComponent<Text> ().enabled = true;
+
 		for (int i = 1; i < 6; i++) {
 			text [i].GetComponent<Text> ().enabled = false;
+		}
+		for (int i = 0; i < 5; i++) {
+			winText [i].GetComponent<Text> ().enabled = false;
 		}
 		  
 	}
 
 	void Update () {
-		
+		scoreText.text = "Score: " + score.ToString ();
+
 	}
 
 	void spawnTarget() {
@@ -99,22 +106,51 @@ public class MarketManager : MonoBehaviour {
 		else{Debug.Log ("gameover");}
 
 
+
+
 	}
 
-	public void shotCorrectTarget() {
+	public void shotCorrectTarget()
+	{
+		score += 5;
 		foreach (var target in targets) {
-			Destroy (target);
+			Destroy(target);
 		}
 		currentRound += 1;
 
-		text [currentRound - 1].enabled = false;; 
+		text[currentRound - 1].enabled = false;
+		winText[currentRound - 1].enabled = true;
+		winImage[currentRound-1].SetActive(true);
+
+		StartCoroutine ("RespawnPickup"); 
+//		text [currentRound].enabled = true; 
+//
+//		if (timeLeft <= 0) {
+//			if (currentRound < 5) {
+//				spawnTarget ();
+//			} else {
+//				SceneManager.LoadScene ("Forest");
+//			}
+//		}
+	}
+
+	IEnumerator RespawnPickup() {
+		yield return new WaitForSeconds (5);
+		winText [currentRound - 1].enabled = false;
+		winImage[currentRound-1].SetActive(false);
+
 		text [currentRound].enabled = true; 
 
-		if (currentRound < 5) {
-			spawnTarget ();
-		} else {
-			Application.LoadLevel ("Forest");
-		}
+			if (currentRound < 5) {
+				spawnTarget ();
+			} else {
+				
+				SceneManager.LoadScene ("Forest");
+			}
+	}
+
+	public void PickupLooted () {
+		StartCoroutine ("RespawnPickup");
 	}
 
 }
