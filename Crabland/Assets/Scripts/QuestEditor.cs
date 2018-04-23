@@ -115,19 +115,19 @@ public class QuestEditor : EditorWindow
                 GUILayout.EndHorizontal();
 
                 GUILayout.BeginHorizontal();
-                questList.questList[viewIndex - 1].sentance = EditorGUILayout.TextField("English Text", questList.questList[viewIndex - 1].sentance as string);
+                //questList.questList[viewIndex - 1].sentance = EditorGUILayout.TextField("English Text", questList.questList[viewIndex - 1].sentance as string);
                 GUILayout.EndHorizontal();
 
                 GUILayout.BeginHorizontal();
-                questList.questList[viewIndex - 1].thaiSentance = EditorGUILayout.TextField("Thai Text", questList.questList[viewIndex - 1].thaiSentance as string);
+                //questList.questList[viewIndex - 1].thaiSentance = EditorGUILayout.TextField("Thai Text", questList.questList[viewIndex - 1].thaiSentance as string);
                 GUILayout.EndHorizontal();
 
                 GUILayout.BeginHorizontal();
-                questList.questList[viewIndex - 1].englishAudio = EditorGUILayout.ObjectField("English Audio", questList.questList[viewIndex - 1].englishAudio, typeof(AudioClip), false) as AudioClip;
+                //questList.questList[viewIndex - 1].englishAudio = EditorGUILayout.ObjectField("English Audio", questList.questList[viewIndex - 1].englishAudio, typeof(AudioClip), false) as AudioClip;
                 GUILayout.EndHorizontal();
 
                 GUILayout.BeginHorizontal();
-                questList.questList[viewIndex - 1].thaiAudio = EditorGUILayout.ObjectField("Thai Audio", questList.questList[viewIndex - 1].thaiAudio, typeof(AudioClip), false) as AudioClip;
+                //questList.questList[viewIndex - 1].thaiAudio = EditorGUILayout.ObjectField("Thai Audio", questList.questList[viewIndex - 1].thaiAudio, typeof(AudioClip), false) as AudioClip;
                 GUILayout.EndHorizontal();
 
                 GUILayout.Space(10);
@@ -177,7 +177,7 @@ public class QuestEditor : EditorWindow
     void AddItem()
     {
         Quest quest = new Quest();
-        quest.sentance = "New Quest";
+        //quest.sentance = "New Quest";
         questList.questList.Add(quest);
         viewIndex = questList.questList.Count;
     }
